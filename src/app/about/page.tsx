@@ -270,6 +270,7 @@ export default function About() {
                                             placeholder="WhatsApp number" type="tel" className="border border-gray-200 rounded-xl px-4 py-3 text-sm font-medium text-[#0A192F] outline-none focus:border-golden transition-colors" />
                                         <button type="submit" disabled={certLoading}
                                             className="inline-flex items-center justify-center gap-2 btn-gold font-bold px-6 py-3 rounded-full text-sm disabled:opacity-60"
+                                        >
                                             {certLoading ? "Verifying…" : "Get My Certificate"}
                                         </button>
                                     </form>
