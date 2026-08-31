@@ -91,7 +91,7 @@ export default function ApartmentsPage() {
                     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.3, ease: EASE }}
                         className="mt-14 grid grid-cols-2 md:grid-cols-4 gap-px rounded-2xl overflow-hidden bg-white/10 border border-white/10">
                         {[
-                            { num: "₹78,000", label: "Max Subsidy Available" },
+                            { num: "₹18,000/kW", label: "Subsidy for Common Area" },
                             { num: "50%+", label: "Common Area Bill Cut" },
                             { num: "Every Flat", label: "Benefits from Day 1" },
                             { num: "30 Years", label: "Solispark" },
@@ -118,7 +118,7 @@ export default function ApartmentsPage() {
                         {[
                             { title: "Common Area Bills Slashed", text: "Lifts, pumps, corridor lighting, car park — all powered by your rooftop. Societies typically see 50–70% reductions in common area electricity costs." },
                             { title: "Lower Maintenance Levy Per Flat", text: "Lower electricity bills mean lower maintenance fund requirements. Every flat owner benefits automatically from day one without any changes to their usage." },
-                            { title: "PM Surya Ghar Subsidy — We File It", text: "Registered Housing Societies qualify for up to ₹78,000 under the scheme. Our team handles the complete application and DISCOM coordination on behalf of your RWA." },
+                            { title: "PM Surya Ghar Subsidy — We File It", text: "Registered Housing Societies qualify for a subsidy of ₹18,000 per kW on common-area solar systems up to 500 kW under PM Surya Ghar. That can mean lakhs back to your society. Our team handles the complete application, DISCOM coordination, and net-metering on behalf of your RWA." },
                             { title: "Zero Disruption to Residents", text: "Installation happens on common rooftops, not inside flats. Residents see zero inconvenience — they just see smaller bills. Solispark maintains the system for 30 years." },
                         ].map((card, i) => (
                             <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: i * 0.08, ease: EASE }}
